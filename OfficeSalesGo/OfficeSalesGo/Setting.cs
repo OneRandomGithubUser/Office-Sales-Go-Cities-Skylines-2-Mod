@@ -12,11 +12,14 @@ namespace OfficeSalesGo
     [FileLocation(nameof(OfficeSalesGo))]
     [SettingsUIGroupOrder(kButtonGroup, kToggleGroup, kSliderGroup, kDropdownGroup, kKeybindingGroup)]
     [SettingsUIShowGroupName(kButtonGroup, kToggleGroup, kSliderGroup, kDropdownGroup, kKeybindingGroup)]
+
+        /* Keybinds
     [SettingsUIKeyboardAction(Mod.kVectorActionName, ActionType.Vector2, usages: new string[] { Usages.kMenuUsage, "TestUsage" }, interactions: new string[] { "UIButton" }, processors: new string[] { "ScaleVector2(x=100,y=100)" })]
     [SettingsUIKeyboardAction(Mod.kAxisActionName, ActionType.Axis, usages: new string[] { Usages.kMenuUsage, "TestUsage" }, interactions: new string[] { "UIButton" })]
     [SettingsUIKeyboardAction(Mod.kButtonActionName, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "TestUsage" }, interactions: new string[] { "UIButton" })]
     [SettingsUIGamepadAction(Mod.kButtonActionName, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "TestUsage" }, interactions: new string[] { "UIButton" })]
     [SettingsUIMouseAction(Mod.kButtonActionName, ActionType.Button, usages: new string[] { Usages.kMenuUsage, "TestUsage" }, interactions: new string[] { "UIButton" })]
+        */
     public class Setting : ModSetting
     {
         public const string kSection = "Main";
@@ -31,6 +34,8 @@ namespace OfficeSalesGo
         {
 
         }
+
+        /* Settings
 
         [SettingsUISection(kSection, kButtonGroup)]
         public bool Button { set { Mod.log.Info("Button clicked"); } }
@@ -53,6 +58,10 @@ namespace OfficeSalesGo
 
         [SettingsUISection(kSection, kDropdownGroup)]
         public SomeEnum EnumDropdown { get; set; } = SomeEnum.Value1;
+        */
+
+
+        /* Keybinds
 
         [SettingsUIKeyboardBinding(BindingKeyboard.Q, Mod.kButtonActionName, shift: true)]
         [SettingsUISection(kSection, kKeybindingGroup)]
@@ -90,7 +99,9 @@ namespace OfficeSalesGo
         [SettingsUIKeyboardBinding(BindingKeyboard.D, Vector2Component.Right, Mod.kVectorActionName, shift: true)]
         [SettingsUISection(kSection, kKeybindingGroup)]
         public ProxyBinding Vector2BindingRight { get; set; }
+        */
 
+        /* Settings
         [SettingsUISection(kSection, kKeybindingGroup)]
         public bool ResetBindings
         {
@@ -100,6 +111,7 @@ namespace OfficeSalesGo
                 ResetKeyBindings();
             }
         }
+        */
 
 
         public DropdownItem<int>[] GetIntDropdownItems()
@@ -151,6 +163,9 @@ namespace OfficeSalesGo
                 { m_Setting.GetOptionGroupLocaleID(Setting.kDropdownGroup), "Dropdowns" },
                 { m_Setting.GetOptionGroupLocaleID(Setting.kKeybindingGroup), "Key bindings" },
 
+
+        /* Settings
+
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.Button)), "Button" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.Button)), $"Simple single button. It should be bool property with only setter or use [{nameof(SettingsUIButtonAttribute)}] to make button from bool property with setter and getter" },
 
@@ -173,6 +188,9 @@ namespace OfficeSalesGo
                 { m_Setting.GetEnumValueLocaleID(Setting.SomeEnum.Value1), "Value 1" },
                 { m_Setting.GetEnumValueLocaleID(Setting.SomeEnum.Value2), "Value 2" },
                 { m_Setting.GetEnumValueLocaleID(Setting.SomeEnum.Value3), "Value 3" },
+        */
+
+        /* Keybinds
 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.KeyboardBinding)), "Keyboard binding" },
                 { m_Setting.GetOptionDescLocaleID(nameof(Setting.KeyboardBinding)), $"Keyboard binding of Button input action" },
@@ -215,7 +233,8 @@ namespace OfficeSalesGo
                 { m_Setting.GetBindingKeyLocaleID(Mod.kVectorActionName, Vector2Component.Right), "Right key" },
 
                 { m_Setting.GetBindingMapLocaleID(), "Mod settings sample" },
-            };
+        */
+    };
         }
 
         public void Unload()

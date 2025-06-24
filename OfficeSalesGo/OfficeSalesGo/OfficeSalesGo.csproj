@@ -33,6 +33,10 @@
 		<Reference Include="Colossal.Localization">
 			<Private>false</Private>
 		</Reference>
+		<Reference Include="ProfitBasedIndustryAndOffice">
+		  <HintPath>$(LOCALAPPDATA)Low\Colossal Order\Cities Skylines II\.cache\Mods\mods_subscribed\83825_16\ProfitBasedIndustryAndOffice.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
 		<Reference Include="Unity.InputSystem">
 			<Private>false</Private>
 		</Reference>
@@ -68,6 +72,15 @@
 	<ItemGroup>
 		<None Include="$(ModPropsFile)" Link="Properties\Mod.props" />
 		<None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CitiesHarmony.API" Version="2.2.0" />
+	  <PackageReference Include="CitiesHarmony.Harmony" Version="2.2.2">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Lib.Harmony" Version="2.2.2" />
 	</ItemGroup>
 
 </Project>
