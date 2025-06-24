@@ -21,7 +21,6 @@ Possible To-Do List:
 This is my first mod, so please tell me any and all feedback!
 
 Notes:
-* The game may try to install PBIAO twice and give a warning about PBIAO not being loaded due to a newer version being enabled. You can safely dismiss the warning and it will work. I am working on a fix.
 * The mod will quickly force companies to sell off their stock, leaving a minimal amount to maintain production. Once their storages are empty, they will begin hiring employees. This mod does not change how quickly companies change their employee count, so office jobs will recover fairly slowly - approximately 20 jobs per in-game month per high density office. The Workplace Availability statistics will help gauge progress.
 * Requires the Profit Based Industry And Office (PBIAO) mod to function, as the PBIAO mod implements most of the required functionality. This mod is tested to work on compatible versions, even if the PBIAO mod itself might not have an updated game version note, as this mod does not use all PBIAO functionality. The mod disables the modified company AI of the PBIAO mod, so there should be no effect to game files or economy simulation beyond what is said here.
 	</LongDescription>
