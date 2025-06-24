@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #faf7ec;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: #310146;
+      }
+
+      .st3 {
+        fill: none;
+      }
+
+      .st4 {
+        fill: #ebe0be;
+      }
+
+      .st5 {
+        fill: #e4d8b3;
+      }
+
+      .st6 {
+        fill: #80d440;
+      }
+
+      .st7 {
+        fill: #7902ab;
+      }
+
+      .st8 {
+        fill: #660090;
+      }
+
+      .st9 {
+        fill: #769ba0;
+      }
+
+      .st10 {
+        fill: #6ea62b;
+      }
+
+      .st11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st3" x="-1.5" y="6.7" width="27.6" height="27.6"/>
+    </clipPath>
+  </defs>
+  <g>
+    <path class="st6" d="M28.7,1.6c1,0,1.9.9,1.9,1.9v15.2c0,1-.9,1.9-1.9,1.9H11.5c-1,0-1.9-.9-1.9-1.9V3.5c0-1,.9-1.9,1.9-1.9h17.1Z"/>
+    <path class="st10" d="M28.7,21.1H11.5c-1.3,0-2.4-1.1-2.4-2.4V3.5c0-1.3,1.1-2.4,2.4-2.4h17.1c1.3,0,2.4,1.1,2.4,2.4v15.2c0,1.3-1.1,2.4-2.4,2.4ZM11.5,2.1c-.8,0-1.4.6-1.4,1.4v15.2c0,.8.6,1.4,1.4,1.4h17.1c.8,0,1.4-.6,1.4-1.4V3.5c0-.8-.6-1.4-1.4-1.4H11.5Z"/>
+    <g>
+      <path class="st1" d="M27.7,9.6c-.3,0-.5-.2-.5-.5v-2.4h-2.4c-.3,0-.5-.2-.5-.5s.2-.5.5-.5h2.8c.3,0,.5.2.5.5v2.8c0,.3-.2.5-.5.5Z"/>
+      <path class="st1" d="M11.7,15.9c-.1,0-.2,0-.3-.1-.2-.2-.2-.5,0-.7l.5-.5c.2-.2.5-.2.7,0s.2.5,0,.7l-.5.5c0,0-.2.1-.3.1Z"/>
+      <path class="st1" d="M13.3,14.2c-.1,0-.2,0-.3-.1-.2-.2-.2-.5,0-.7l2.3-2.3c.4-.4,1-.4,1.3,0l1.4,1.4,4-4c.4-.4,1-.4,1.3,0l.8.8,2.9-2.9c.2-.2.5-.2.7,0s.2.5,0,.7l-3.2,3.2c-.2.2-.5.2-.7,0l-1.1-1.1-4.3,4.3c-.2.2-.5.2-.7,0l-1.7-1.7-2.3,2.3c0,0-.2.1-.3.1Z"/>
+    </g>
+  </g>
+  <g class="st11">
+    <g id="ZoneOfficeHigh">
+      <g id="ZoneOffice">
+        <path id="Path_774" class="st8" d="M.5,22.9l14,8.6,11.7-8.6-14.3-7L.5,22.9Z"/>
+        <path id="Path_775" class="st5" d="M7.1,23.2l7.4,4.3v-9.6s-7.6-3.9-7.6-3.9v9.2Z"/>
+        <path id="Path_776" class="st7" d="M14.5,27.4l5-3.5v-10.8l-3.8,2.5-1.2,2.3v9.6Z"/>
+        <path id="Path_777" class="st0" d="M8,11.6l7.8,4,3.8-2.5-7.5-3.7-4.1,2.1Z"/>
+        <path id="Path_778" class="st9" d="M7.1,17.9l7.5,3.9v3.7l-7.5-4v-3.6Z"/>
+        <path id="Path_819" class="st9" d="M6.9,14.6l7.6,3.9v2.6l-7.5-4-.2-2.6Z"/>
+        <path id="Path_779" class="st2" d="M14.6,22l5-3.3v3.3l-5,3.5v-3.5Z"/>
+        <path id="Path_820" class="st2" d="M14.6,18.5l5-3.3v2.6l-5,3.3v-2.6Z"/>
+        <path id="Path_818" class="st4" d="M7,14l1-2.4,7.8,4-1.3,2.3-7.6-3.8Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
